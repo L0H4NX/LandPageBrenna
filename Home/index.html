@@ -4,147 +4,195 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
     <title>Brenna Medeiros</title>
+    <script src="https://kit.fontawesome.com/e8763681a1.js" crossorigin="anonymous"></script>
 </head>
-<body style="width: 100vw;">
-    <header>
-        <nav class="conteiner-cabecario">
-            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="">Sobre mim </a>
-            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="">últimos Posts</a>
-            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="">Tratamentos</a>
-            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="">Depoimentos</a>
-            <a style= "padding: 10px;" class="menu-cabecario" href="">Contato </a>
-        </nav>
-        <div class="conteiner-imagem">
-            <img class="img-cabecario" src="/imagens/pexels-burst-373883.jpg" alt="">
+<body> 
+    <div id="conteiner-modal">
+        <div class="modal">
+            <nav class="nav-modal">
+                <a onclick="closeModal()" class="aModal" href="#Sobre-Mim">Sobre mim</a>
+                <a onclick="closeModal()" class="aModal" href="#Posts">Últimos Posts</a>
+                <a onclick="closeModal()" class="aModal" href="#Tratamentos">Tratamentos</a>
+                <a onclick="closeModal()" class="aModal" href="#Depoimentos">Depoimentos</a>
+                <a onclick="closeModal()" class="aModal" href="#Contato">Contato</a>
+            </nav>
+
+            <div class="conteiner-closeModal">
+                <i onclick="closeModal()" id="close-modal"class="fa-solid fa-xmark"></i>
+            </div>
         </div>
+    </div>
+    <header>
+        <div class="conteiner-cabecario">
+
+          
+            <div class="conteiner-logo">
+
+                <h4 class="logo">Brenna Medeiros</h4>
+
+            </div>
+     
+
+            <nav class="conteiner-nav" >
+
+            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="#Sobre-Mim">Sobre mim </a>
+            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="#Posts">Últimos Posts</a>
+            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="#Tratamentos">Tratamentos</a>
+            <a style="border-right: 1px white solid; padding: 10px;" class="menu-cabecario" href="#Depoimentos">Depoimentos</a>
+            <a style= "padding: 10px;" class="menu-cabecario" href="#Contato">Contato </a>
+            </nav>
+
+        <div class="conteiner-hamburguer">
+            <i onclick="teste() " id="hamburguer" class="fas fa-bars"></i>
+        </div>
+
+        </div>
+
+       
+ 
+       
+
     </header>
-    <section class="section-topo">
+    <div class="conteiner-imagem">
+            <img class="img-cabecario" src="/imagens/img-cabecario.jpeg" alt="">
+        </div>
+
+    <section id="Sobre-Mim">
+
+        <div class="section-topo">
+
+            <div class="fundo-img-Brenna">
+               
+            </div>
+
         <div class="imagem-section-topo">
             <img class="foto-brenna" src="/Imagens/Foto-Brenna.jpg" alt="">
         </div>
+
         <div class="texto-section-topo">
             <h4 class="sobremim-topo">Sobre Mim</h4>
             <p class="lorem-section-topo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab  dolorem, nisi vero eum maiores porro qui libero quam magnam <br> autem dicta delectus dolorum doloribus? Beatae repudiandae cumque vitae ipsam officia!l <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium porro optio officiis vero <br> magnam, suscipit debitis aperiam veritatis incidunt eveniet non deleniti quia consectetur ut nesciunt. Eligendi ullam numquam quis.</p>
-            <a href=""><span class="agende"> Agende sua sessão online</span> </a>  
+            <a class="conteiner-agende" href="https://contate.me/Brenna-Medeiros"><span class="agende"> Agende sua sessão online</span> </a>  
 
         </div>
+    </div>
     </section>
-    <section class="conteiner-ultimos-posts">
-        <div class="conteiner-posts" >
-            <div class="texto-ultimos-posts">
-                <p>Últimos Posts</p>
-            </div>
-            <div class="ultimos-posts">
-                <a href=""><img src="/imagens/img-post1.jpg" alt=""></a>
-                <a href=""><img src="/imagens/img-post2.jpg" alt=""></a>
-                <a href=""><img src="/imagens/img-post3.jpg" alt=""></a>
-                <a href=""><img src="/imagens/img-post4.jpg" alt=""></a>
+    <section id="Posts">
+        <div class="conteiner-ultimos-posts">
+            <div class="conteiner-posts" >
+                <div class="texto-ultimos-posts">
+                    <p >Últimos Posts</p>
+                </div>
+                <div class="ultimos-posts">
+                    <a class="conteiner-post" href=""><img class="post" src="/imagens/img-post1.jpg" alt=""></a>
+                    <a class="conteiner-post" href=""><img class="post" src="/imagens/img-post2.jpg" alt=""></a>
+                    <a class="conteiner-post" href=""><img class="post" src="/imagens/img-post3.jpg" alt=""></a>
+                    <a class="conteiner-post" href=""><img class="post" src="/imagens/img-post4.jpg" alt=""></a>
+                </div>
             </div>
         </div>
     </section>
-    <section class="conteiner-ultima">
-
+    <section id="Tratamentos">
+        
         <div class="conteiner-tratamento">
 
             <div class="lista-tratamentos">
 
-                <h3 style="font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 35px;">Tratamentos</h3>
+                <h3 style="font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 35px; letter-spacing: 3px;">Tratamentos</h3>
 
                 <div class="lista">
                     <ul type="disc">
-                        <li>Ansiedade</li>
-                        <li>Burnout</li>
-                        <li>Depressão</li>
-                        <li>Desenvolver autoconhecimento</li>
-                        <li>Desenvolvimento pessoal</li>
-                        <li>Maturidade Emocional</li>
-                        <li>Problemas de relacionamentos</li>
-                        <li>Trabalhar autoestima</li>
-                        <li>Traumas psicológicos</li>
-                        <li>Transtornos psicológicos</li>
+                        <li class="item-lista">Ansiedade</li>
+                        <li class="item-lista">Burnout</li>
+                        <li class="item-lista">Depressão</li>
+                        <li class="item-lista">Desenvolver autoconhecimento</li>
+                        <li class="item-lista">Desenvolvimento pessoal</li>
+                        <li class="item-lista">Maturidade Emocional</li>
+                        <li class="item-lista">Problemas de relacionamentos</li>
+                        <li class="item-lista">Trabalhar autoestima</li>
+                        <li class="item-lista">Traumas psicológicos</li>
+                        <li class="item-lista">Transtornos psicológicos</li>
                     </ul>
                 </div>
 
             </div>
-                <div class="img-tratamentos">
+                <div class="conteiner-img-tratamentos">
                     <img class="img-tratamento" src="/imagens/img-tratamento.jpg" alt="">
                 </div>
         </div>
 
-        <div class="conteiner-depoimentos">
-            <div class="h3-depoimentos">
+    </section>
+    <section id="Depoimentos">
+        <div class="conteiner-h3-depoimentos">
                 <h3>Depoimentos</h3>
             </div>
-            <div class="conteiner-depoimentos-escrito">
-                <div class="dp1">
 
-                    <div class="dp1-pt1" style="border-right: 5px solid #706956; padding: 15px;">
-                        <span class="lorem-depoimentos">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        Fugiat nostrum delectus, sapiente excepturi aliquid, est doloremque<br> animi, 
-                         laudantium unde odit enim veritatis voluptate totam voluptatum.
-                         <br> In labore aperiam tempore quasi!</span> 
-                    </div>
-                    <div class="dp1-pt2">
-                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        Fugiat nostrum delectus, sapiente excepturi aliquid, est doloremque <br>animi, 
-                         laudantium unde odit enim veritatis voluptate totam voluptatum.
-                         <br> In labore aperiam tempore quasi!</span>
-                    </div>
-
+        <div id="Dp" class="conteiner-depoimentos">
+            
+            <div class="depoimento1">
+                <div>
+                    <p class="lorem-depoimentos">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ab eaque, amet nihil aperiam quos accusantium beatae, reprehenderit, qui corrupti expedita deleniti sed optio repellendus nesciunt dicta fuga dolor. Consectetur!
+                    </p>
                 </div>
-
-                    <div class="dp2">
-
-                        <div class="dp2-pt1" style="border-right: 5px solid #706956; padding: 15px;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        Fugiat nostrum delectus, sapiente excepturi aliquid, est doloremque <br>animi, 
-                         laudantium unde odit enim veritatis voluptate totam voluptatum.
-                         <br> In labore aperiam tempore quasi!
-                        </div>
-                        <div class="dp2-pt2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        Fugiat nostrum delectus, sapiente excepturi aliquid, est doloremque <br>animi, 
-                         laudantium unde odit enim veritatis voluptate totam voluptatum.
-                         <br> In labore aperiam tempore quasi!
-                        </div>
-
-                    </div>
-                    <div class="dp3">
-
-                        <div class="dp-pt1" style="border-right: 5px solid #706956; padding: 15px;" >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        Fugiat nostrum delectus, sapiente excepturi aliquid, est doloremque<br>  animi, 
-                        laudantium unde odit enim veritatis voluptate totam voluptatum.
-                         <br> In labore aperiam tempore quasi!
-
-                        </div>
-
-                        <div class="dp-pt2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        Fugiat nostrum delectus, sapiente excepturi aliquid, est doloremque<br>  animi, 
-                        laudantium unde odit enim veritatis voluptate totam voluptatum.
-                         <br> In labore aperiam tempore quasi!
-                        </div>
-
-                    </div>
-                
             </div>
 
+            <div class="depoimento2">
+                <div>
+                    <p class="lorem-depoimentos">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure optio libero doloribus, officia iusto eos! Eos itaque, omnis iusto eveniet odit molestiae totam, ea laborum veniam iure consectetur odio!
+                    </p>
+                </div>
+            </div>
+
+            <div class="depoimento3">
+                <div>
+                    <p class="lorem-depoimentos">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum labore sequi! Atque error numquam quibusdam ab neque eligendi magni optio voluptate. Perspiciatis repellendus alias iure nemo sint!
+                    </p>
+                </div>
+            </div>
+            <div class="depoimento4">
+                <div>
+                    <p class="lorem-depoimentos">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum labore sequi! Atque error numquam quibusdam ab neque eligendi magni optio voluptate. Perspiciatis repellendus alias iure nemo iusto sint!
+                    </p>
+                </div>
+            </div>
+            <div class="depoimento5">
+                <div>
+                    <p class="lorem-depoimentos">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum labore sequi! Atque error numquam quibusdam ab neque eligendi magni optio voluptate. Perspiciatis repellendus alias iure nemo iusto sint!
+                    </p>
+                </div>
+            </div>
+            <div class="depoimento6">
+                <div>
+                    <p class="lorem-depoimentos">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum labore sequi! Atque error numquam quibusdam ab neque eligendi magni optio voluptate. Perspiciatis repellendus alias iure nemo iusto sint!
+                    </p>
+                </div>
+            </div>
         </div>
-
-
     </section>
-    <footer class="conteiner-footer">
+   
+    <footer id="Contato">
+        <div class="conteiner-footer">
+            <div >
+                <h4 class="contato">Contatos</h4>
+            </div>
 
-        <div >
-            <h4 class="contato">Contatos</h4>
-        </div>
-
-        <div class="redes">
-            <a href="https://www.instagram.com/brennamedeirospsi/"><img class="redes-sociais" src="/Imagens/logo-insta-colorida.png" alt=""></a>
-            <a href="https://contate.me/Brenna-Medeiros"><img class="redes-sociais" src="/Imagens/logo-wpp.png" alt=""></a>
+            <div class="redes">
+                <a href="https://www.instagram.com/brennamedeirospsi/">
+                    <img class="redes-sociais" src="/Imagens/logo-insta-colorida.png" alt="">
+                </a>
+                <a href="https://contate.me/Brenna-Medeiros">
+                    <img class="redes-sociais" src="/Imagens/logo-wpp.png" alt="">
+                </a>
+            </div>
         </div>
     </footer>
 </body>
