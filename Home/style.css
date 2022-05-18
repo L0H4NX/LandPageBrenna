@@ -369,10 +369,18 @@ body{
 
     .conteiner-cabecario{
         font-size: 10px;
-        width: 93%;
+        width: 100%;
         position: fixed;
         gap: 0px;
 
+    }
+
+    .conteiner-logo{
+        width: 50%;
+    }
+    .conteiner-hamburguer{
+        width: 50%;
+        text-align: center;
     }
 
 
@@ -401,7 +409,7 @@ body{
     }
 
    .item-lista{
-       font-size: 15px;
+       font-size: 20px;
    }
    .lista{
        line-height: 40px;
