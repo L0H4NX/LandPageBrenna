@@ -2,146 +2,182 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body{
-    position: relative;
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+
+
+ /*-----------------------------------------------------INICIO CABECARIO-------------------------------------------------------------------------------------------- */
+
+.conteiner-cabecario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+    background-color: #706956;
+    padding: 15px;
+}
+.conteiner-logo{
+    width: 120px;
+    height: 120px;
+}
+.logo{
     width: 100%;
     height: 100%;
 }
 
-@font-face{
-    font-family: 'Segoe UI';
-    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
-    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
-         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
-         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.conteiner-cabecario{
-    background-color: #706956;
+.conteiner-nav{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    gap: 262px;
+    justify-content: center;
     align-items: center;
-    padding: 15px;
+    gap:25px;
 }
-
-
-
-.conteiner-logo{
-    padding: 0px 6px;
+.divisao-menu{
+    width: 1px;
+    background-color: #fff;
+    height: 15px;
 }
-
-.logo{
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.menu-nav{
     font-size: 25px;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    padding: 10px;
+    transition:  linear 0.4s;
+}
+.menu-nav:hover{
+    background-color: rgba(46, 43, 43, 0.197);
 }
 
-.menu-cabecario{
-    color: white;
-    letter-spacing: 3px;
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 26px;
-}
 
 
+ /*-----------------------------------------------------INICIO IMAGEM ABAIXO CABECARIO------------------------------------------------------------------------ */
 
-.menu-cabecario:hover{
-    background-color: rgba(0, 0, 0, 0.05);
-    transition: all 0.5s;
-}
-
-.conteiner-imagem{
+.conteiner-imagem-cabecario{
     text-align: center;
-    background-color: #727B4C;
+    background-color: #fff;
     width: 100%;
 }
-
 .img-cabecario{
-    width:600px;
-    height:240px;
-    
+    width: 100%;
+    height: 228px;
+    object-fit: cover;
+    object-position: 0px -609px;
+
 }
 
-.imagem-section-topo{
-    width: 40%;
+ /*-----------------------------------------------------INICIO PRIMEIRA SESSÃO - SOBRE MIM------------------------------------------------------------------------ */
+
+.conteiner-foto-brenna{
+    width: 337px;
+    height: 515px;
+    margin-left: 250px;
     text-align: center;
     position: inherit;
 }
-
 .foto-brenna{
-    height: 310px;
-    padding: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
+}
+.fundo-img-Brenna{
+    height: 101.5%;
+    top: -4px;
+    width: 332px;
+    position: absolute;
+    left: 130px;
+    background-color: #cec09a;
 }
 
 .section-topo{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
-    padding: 25px;
+    padding: 8px 25px 50px 25px;
     position: relative;
-    gap: 25px;
+    gap: 80px;
 }
 
 .texto-section-topo{
-    background-color: white;
+    width: 70%;
+    background-color: #fafafa;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
     letter-spacing: 3px;
 }
-
 .sobremim-topo{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    font-weight: 1000;
-}
+    font-size: 30px;
+    font-weight: bold;
+    padding: 44px 20px 5px 19px;
 
+}
 .lorem-section-topo{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    font-weight: 600;
-    line-height: 30px;
-    padding: 15px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 25px;
+    padding: 33px 106px 10px 10px;
     margin-bottom: 25px;
-}
 
+}
 .agende{
-    background-color: #706956;
+    background-color: #55543f;
     padding: 15px;
     border-radius: 5px;
     text-transform: uppercase;
-    color: azure;
-    font-size: 25px;
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-    box-shadow: #727B4C 5px 5px 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: #adac86 5px 5px 5px;
+    border: none;
+    letter-spacing: 3px;
+    transition:linear 0.5s;
 }
 
-.conteiner-ultimos-posts{
-    background-color: #F0ECE9;
+.agende:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #6c6a4a;
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 2 - POSTS------------------------------------------------------------------------ */
+
+ .conteiner-ultimos-posts{
+    position: relative;
+    background-color: #f4efe1;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 65px 0;
 }
-
 .conteiner-posts{
     background-color: white;
-    width: 1400px;
-    padding: 25px;
+    width: 1447px;
+    padding: 34px;
     box-shadow: 5px 5px 5px gray;
+}
+.planta-posts{
+    position: absolute;
+    width: 373px;
+    height: 227px;
+    right: 0;
+    top: 0;
 }
 
 .ultimos-posts{
@@ -152,26 +188,30 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 45px;
+    gap: 12px;
     padding: 15px;
-    
 }
 
 .texto-ultimos-posts{
-    font-size: 25px;
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px;
-    font-weight: 1000;
+    font-size: 30px;
+    margin-left: 166px;
+    padding: 0px;
+    font-weight: bold;
     letter-spacing: 3px;
 }
 
 .post{
-    width: 300px;
-    height: 300px;
+    width: 267px;
+    height: 272px;
+    object-fit: cover;
+    transition: linear 0.5s; 
+}
+.post:hover{
+    opacity: 0.70;
+    background-color: rgba(147, 106, 45, 0.8);   
 }
 
-
-
+ /*-----------------------------------------------------INICIO SESSÃO 3 - TRATAMENTOS------------------------------------------------------------------------ */
 
 .conteiner-tratamento{
     display: flex;
@@ -179,37 +219,54 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 18px;
+    background-color: #fafafa;
 }
 
+.h3-tratamentos{
+    font-size: 35px; 
+    letter-spacing: 3px;
+    padding: 50px 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 .lista-tratamentos{
     text-align: center;
 }
-
 .lista{
-    padding: 80px;
+    padding: 13px 80px;
     font-size: 28px;
     text-align: start;
     font-weight: 500;
     line-height: 65px;
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.item-lista{
+    letter-spacing: 2px;
 }
 
-    .item-lista{
-        font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        letter-spacing: 2px;
-    }
+.conteiner-img-tratamentos{
+    width: 763px;
+    height: 557px;
+}
 .img-tratamento{
     width: 100%;
     height: 100%;
     box-shadow: 5px 5px 5px #706956;
     margin-bottom: 75px;
+    object-fit: cover;
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 4 - DEPOIMENTOS------------------------------------------------------------------------ */
+
+#Depoimentos{
+    background-color: #fafafa;
 }
 
 .conteiner-depoimentos{
     display: flex;
     flex-direction: row;
     padding: 41px 15px;
-    height: 235px;
+    height: 488px;
 }
 
 .depoimento1, .depoimento2, .depoimento3, .depoimento4, .depoimento5, .depoimento6{
@@ -220,293 +277,1269 @@ body{
     padding: 15px;
     align-items: center;
     height: 100%;
-    border-right: #b2a37a 5px solid;
-
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-right: #e2dcc9 5px solid;
+    background-color: #fff;
     font-size: 17px;
     line-height: 30px;
     font-weight: 500;
-
-    
     border-radius: 5px;
-   
 }
 
 .depoimento1{
-    border-left: 5px solid #b2a37a;
+    border-left: 5px solid #e2dcc9;
 }
 
 .depoimento2, .depoimento4{
     margin-right: 5px;
 }
 
-.conteiner-footer{
-    background-color: #706956;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-
 .conteiner-h3-depoimentos{
     text-align: center;
-    font-size: 25px;
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 1000;
+    font-size: 30px;
+    font-weight: bold;
     letter-spacing: 3px;
-    
 }
-.redes{
+
+.conteiner-botao-depoimentos{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+.botao-depoimentos{
+    border: none;
+    background-color: #55543f;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #adac86 5px 5px 5px;
+    transition: linear 0.5s;
+}
+.botao-depoimentos:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #6c6a4a;
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 5 - EBOOKS ------------------------------------------------------------------------ */
+
+.conteiner-ultima-section{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 75px;
+    background-color: #fafafa;
+    padding: 66px 66px;
 }
 
-.redes-sociais{
-    width: 40px;
-    height: 40px;
+.conteiner-ebooks-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding:41px 12px;
+    background-color: #e6ded4;
+    border-radius: 10px;
 }
 
-.contato{
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    font-weight: 770;
-    color: #fff;
-}
+.conteiner-guia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    background-color: #e6ded4;
+    border-radius: 10px;
+    padding: 41px 12px;
 
-.division{
-    display: none;
 }
-
-.fundo-img-Brenna{
-    height: 342px;
+.pai-ebooks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ebook{
     width: 250px;
-    position: absolute;
-    left: 55px;
-    background-color: #C4BDAB;
-    color: #C4BDAB;
+    height: 293px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: linear 0.5s;
 }
 
-#conteiner-modal{
-   display: none;
+.guia{
+    width: 394px;
+    height: 289px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: linear 0.5s;
 }
-.conteiner-hamburguer{
-    display: none;
+.guia:hover, .ebook:hover{
+    opacity: 0.70;
 }
-#hamburguer{
-    display: none;
+.p-ebook, .p-guia{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
 }
-@media (max-width:1000px) {
 
-    .conteiner-hamburguer{
-        display: block;
-    }
-    #hamburguer{
-        display: block;
-        font-size: 20px;
-        color: #fff;
-    }
+ /*-------------------------------------------------------------------INICIO FOOTER ------------------------------------------------------------------------------ */
 
+.conteiner-footer{
+    background-color: #706956;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 43px;
+    gap: 3px;
+}
+.conteiner-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.texto-redes{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.logo-insta{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+.logo-spotify{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
 
-    #conteiner-modal{ 
-        opacity: 0;
-        visibility: visible;
-        transition: all 0.5s;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        position: absolute;
+.conteiner-texto-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  
+}
+.h2-footer{
+    font-size: 25px;  
+    color: #fff;
+    letter-spacing: 3px;
+}
+.crp{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+}
 
-        background-color: #706956;
-    }
-    .modal{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-    }
-
-    .conteiner-closeModal{
-        width: 20%;
-        height: 100vh;
-        text-align: center;
-        padding: 15px 0;
-        background-color:#5e5848;
-    }
-    #close-modal{
-        font-size: 40px; 
-        color:aliceblue;
-        
-        background-color: #5e5848;
-    }
-
-    .nav-modal{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 100vh;
-        width: 80%;
-        background-color: #706956;
-    }
-    .aModal{
-        color: white;
-        font-size: 20px;
-        font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .aModal:hover{
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    .conteiner-nav{
-        display: none;
-    }
+@media (max-width:400px) and (min-width: 300px){
+    /*-----------------------------------------------------INICIO CABECARIO----------------------------------------------------------------------------------- */
 
     .conteiner-cabecario{
-        font-size: 10px;
         width: 100%;
+        gap: 37px;
+        justify-content: center;
+        padding: 5px 0px;
         position: fixed;
-        gap: 0px;
+        z-index: 2;
+    }
+    .conteiner-nav{
+        width: 100%;
+        gap: 10px;
+    }
+    .divisao-menu{
+        width: 1px;
+        background-color: #fff;
+        height: 15px;
+    }
+    .menu-nav{
+        font-size: 7px;
+        padding: 0;
+    }
+    .conteiner-logo{
+        width: 46px;
+        height: 45px;
+        text-align: center;
+        display: none;
+    
+    }
+    
+    /*-----------------------------------------------------INICIO IMAGEM ABAIXO CABECARIO------------------------------------------------------------------------ */
 
+    .conteiner-imagem-cabecario{
+        width: 100vw;
+        height: 75px;
+    }
+    .img-cabecario{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0px -100px;
+    }
+
+     /*-----------------------------------------------------INICIO PRIMEIRA SESSÃO - SOBRE MIM------------------------------------------------------------------------ */
+
+    .section-topo{
+        padding: 20px 0px;
+        gap: 0px;
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    .sobremim-topo{
+        font-size: 15px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .texto-section-topo{
+        width: 55%;
+        background-color: #fafafa;
+    }
+    .lorem-section-topo{
+        font-size: 10px;
+        line-height: 10px;
+        padding: 8px 4px;
+        font-weight: 500;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    .agende{
+        font-size: 8px;
+        padding: 10px 8px;
+        letter-spacing: 1px;
+    }
+
+
+    .conteiner-foto-brenna{
+        width: 126px;
+        height: 263px;
+        padding: 0px 10px;
+        margin-left: 0;
+    }
+    .foto-brenna{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        object-fit: cover;
+        object-position: -41px 0px;
+    }
+    .fundo-img-Brenna{
+        height: 100%;
+        top: 0px;
+        width: 103px;
+        position: absolute;
+        left: 19px;
+        box-shadow: 3px 10px 5px  #b1a480;
+    }
+    
+     /*-----------------------------------------------------INICIO SESSÃO 2 - POSTS------------------------------------------------------------------------ */
+
+    .conteiner-posts{
+        width: 95%;
+        padding: 11px 0px;
+    }
+    .planta-posts{
+        width: 156px;
+        height: 91px;
+        
+    }
+
+    .conteiner-ultimos-posts{
+        width: 100%;
+        padding: 40px 0;
+        justify-content: center;
+    }
+    .ultimos-posts{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 9px;
+        padding: 0;
+    }
+    .texto-ultimos-posts{
+        font-size: 15px;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 5px;
+        padding: 6px;
+    }
+    .post{
+        width: 75px;
+        height: 77px;
+    }
+
+     /*-----------------------------------------------------INICIO SESSÃO 3 - TRATAMENTOS------------------------------------------------------------------------ */
+
+    .conteiner-tratamento{
+        padding: 25px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 0px;
+    }
+    #Depoimentos{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h3-tratamentos{
+        font-size: 20px;
+        letter-spacing: 0;
+        text-align: start;
+        padding: 21px 26px;
+    }
+    .lista{
+        padding: 0px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .item-lista{
+        letter-spacing: 0;
+    }
+
+
+    .conteiner-img-tratamentos {
+        width: 160px;
+        height: 154px;
+        margin-top: 40px;
+    }
+    .img-tratamento{
+        margin-bottom: 0;
+        margin-left: 0px;
+    }   
+   
+     /*-----------------------------------------------------INICIO SESSÃO 4 - DEPOIMENTOS------------------------------------------------------------------------ */
+
+    .conteiner-h3-depoimentos {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .conteiner-depoimentos{
+        padding: 0;
+        height: 175px;
+    }
+
+    .depoimento1, .depoimento2, .depoimento6 {
+        background-color: #FDFEFD;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .depoimento2,.depoimento3, .depoimento4, .depoimento5{
+        display: none;
+    }
+    .botao-depoimentos{
+        width: 68%;
+        font-size: 10px;
+        letter-spacing: 1px;
+        padding: 12px 6px;
+    }
+
+    /*-----------------------------------------------------INICIO SESSÃO 5 - EBOOK-S ------------------------------------------------------------------------ */
+    .conteiner-ultima-section{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px 10px 50px 10px;
+    }
+
+  
+    .conteiner-ebooks-texto {
+        padding: 8px 6px;
+        gap: 2px;
+        width: 321px;
+    }
+    .ebook{
+        width: 127px;
+        height: 162px;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+    .pai-ebooks{
+        gap: 0px;
+    }
+    .p-ebook, .p-guia{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .conteiner-guia{
+        padding: 0px 0px;
+        width: 316px;
+        height: 280px;
+        gap: 15px;
+    }
+    .guia{
+        border-radius: 10px;
+        width: 100%;
+        height: 218px;
+        object-fit: cover;
+    }
+
+     /*-----------------------------------------------------INICIO FOOTER ----------------------------------------------------------------------- */
+    .conteiner-footer{
+        padding: 5px 15px;
+    }
+    .h2-footer{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .crp{
+        font-size: 10px;
+    }
+    .texto-redes{
+        font-size: 10px;
+    }
+    .conteiner-redes{
+        gap: 0;
+    }
+    .logo-insta, .logo-spotify{
+        width: 21px;
+        height: 25px;
+    }
+}
+
+ /*-----------------------------------------------------INICIO MEDIA QUERY------------------------------------------------------------------------ */
+
+@media (max-width:490px) and (min-width: 401px){
+
+    /*-----------------------------------------------------INICIO CABECARIO----------------------------------------------------------------------------------- */
+
+    .conteiner-cabecario{
+        width: 100%;
+        gap: 37px;
+        justify-content: center;
+        padding: 5px 0px;
+        position: fixed;
+        z-index: 2;
+    }
+    .conteiner-nav{
+        width: 70%;
+        gap: 6px;
+    }
+    .divisao-menu{
+        width: 1px;
+        background-color: #fff;
+        height: 15px;
+    }
+    .menu-nav{
+        font-size: 7px;
+        padding: 0;
+    }
+    .conteiner-logo{
+        width: 46px;
+        height: 45px;
+        text-align: center;
+    
+    }
+    
+    /*-----------------------------------------------------INICIO IMAGEM ABAIXO CABECARIO------------------------------------------------------------------------ */
+
+    .conteiner-imagem-cabecario{
+        width: 100vw;
+        height: 120px;
+    }
+    .img-cabecario{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0px -79px;
+    }
+
+     /*-----------------------------------------------------INICIO PRIMEIRA SESSÃO - SOBRE MIM------------------------------------------------------------------------ */
+
+    .section-topo{
+        padding: 20px 0px;
+        gap: 0px;
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    .sobremim-topo{
+        font-size: 15px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .texto-section-topo{
+        width: 55%;
+        background-color: #fafafa;
+    }
+    .lorem-section-topo{
+        font-size: 10px;
+        line-height: 10px;
+        padding: 8px 4px;
+        font-weight: 500;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    .agende{
+        font-size: 8px;
+        padding: 10px 8px;
+        letter-spacing: 1px;
+    }
+
+
+    .conteiner-foto-brenna{
+        width: 126px;
+        height: 263px;
+        padding: 0px 10px;
+        margin-left: 0;
+    }
+    .foto-brenna{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        object-fit: cover;
+        object-position: -41px 0px;
+    }
+    .fundo-img-Brenna{
+        height: 100%;
+        top: 0px;
+        width: 103px;
+        position: absolute;
+        left: 19px;
+        box-shadow: 3px 10px 5px  #b1a480;
+    }
+    
+     /*-----------------------------------------------------INICIO SESSÃO 2 - POSTS------------------------------------------------------------------------ */
+
+    .conteiner-posts{
+        width: 90%;
+        padding: 11px 0px;
+    }
+    .planta-posts{
+        width: 156px;
+        height: 91px;
+        
+    }
+
+    .conteiner-ultimos-posts{
+        width: 100%;
+        padding: 40px 0;
+        justify-content: center;
+    }
+    .ultimos-posts{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 9px;
+        padding: 0;
+    }
+    .texto-ultimos-posts{
+        font-size: 15px;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .post{
+        width: 84px;
+        height: 88px;
+    }
+
+     /*-----------------------------------------------------INICIO SESSÃO 3 - TRATAMENTOS------------------------------------------------------------------------ */
+
+    .conteiner-tratamento{
+        padding: 25px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+        margin-bottom: 0px;
+    }
+    #Depoimentos{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h3-tratamentos{
+        font-size: 20px;
+        letter-spacing: 0;
+        text-align: start;
+        padding: 21px 26px;
+    }
+    .lista{
+        padding: 0px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .item-lista{
+        letter-spacing: 0;
+    }
+
+
+    .conteiner-img-tratamentos {
+        width: 160px;
+        height: 154px;
+        margin-top: 40px;
+    }
+    .img-tratamento{
+        margin-bottom: 0;
+        margin-left: 18px;
+    }   
+   
+     /*-----------------------------------------------------INICIO SESSÃO 4 - DEPOIMENTOS------------------------------------------------------------------------ */
+
+    .conteiner-h3-depoimentos {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .conteiner-depoimentos{
+        padding: 0;
+        height: 170px;
+    }
+
+    .depoimento1, .depoimento2, .depoimento6 {
+        background-color: #FDFEFD;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .depoimento2,.depoimento3, .depoimento4, .depoimento5{
+        display: none;
+    }
+    .botao-depoimentos{
+        width: 68%;
+        font-size: 10px;
+        letter-spacing: 1px;
+        padding: 12px 6px;
+    }
+
+    /*-----------------------------------------------------INICIO SESSÃO 5 - EBOOK-S ------------------------------------------------------------------------ */
+    .conteiner-ultima-section{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px 10px 50px 10px;
+    }
+
+  
+    .conteiner-ebooks-texto {
+        padding: 8px 6px;
+        gap: 2px;
+        width: 339px;
+    }
+    .ebook{
+        width: 127px;
+        height: 162px;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+    .pai-ebooks{
+        gap: 8px;
+    }
+    .p-ebook, .p-guia{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .conteiner-guia{
+        padding: 0px 0px;
+        width: 337px;
+        height: 300px;
+        gap: 15px;
+    }
+    .guia{
+        border-radius: 10px;
+        width: 100%;
+        height: 218px;
+        object-fit: cover;
+    }
+
+     /*-----------------------------------------------------INICIO FOOTER ----------------------------------------------------------------------- */
+    .conteiner-footer{
+        padding: 5px 15px;
+    }
+    .h2-footer{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .crp{
+        font-size: 10px;
+    }
+    .texto-redes{
+        font-size: 10px;
+    }
+    .conteiner-redes{
+        gap: 0;
+    }
+    .logo-insta, .logo-spotify{
+        width: 21px;
+        height: 25px;
+    }
+
+}
+
+    /*-----------------------------------------------------INICIO MEDIA 600PX------------------------------------------------------------------------ */
+    
+@media (max-width:600px) and (min-width: 491px) {
+
+    /*-----------------------------------------------------INICIO CABECARIO----------------------------------------------------------------------------------- */
+    
+    .conteiner-cabecario{
+        justify-content: space-between;
+        gap: 5px;
+        position: fixed;
+        padding: 10px 10px;
+        width: 97%;
+        z-index: 2;
     }
 
     .conteiner-logo{
-        width: 50%;
-    }
-    .conteiner-hamburguer{
-        width: 50%;
-        text-align: center;
+        width: 50px;
+        height: 50px;
     }
 
-
-
-    .logo{
-        font-size: 15px;
-        text-align: center;
+    .conteiner-nav{
+        gap: 0px;
     }
+    .menu-nav{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    /*-----------------------------------------------------INICIO IMAGEM ABAIXO CABECARIO------------------------------------------------------------------------ */
 
+    .conteiner-imagem-cabecario{
+        width: 100vw;
+        height: 148px;
+    }
     .img-cabecario{
         width: 100%;
-        height: 144px;
-
-    }
-
-    .imagem-section-topo{
-        width: 100%;
-    }
-
-    .foto-brenna{
-        box-shadow: 5px 5px 5px #706956;
-    }
-
-    .fundo-img-Brenna{
-        display: none;
-    }
-
-   .item-lista{
-       font-size: 20px;
-   }
-   .lista{
-       line-height: 40px;
-   }
-    
-    .section-topo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 35px;
-        position: initial;
-    }
-
-    .texto-section-topo{
-        width: 94%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-    }
-
-    .conteiner-agende{
-        width: 94%;
-    }
-
-    .lorem-section-topo{
-        width: 94%;
-        text-align: center;
-    }
-
-    .conteiner-footer{
-        display: flex;
-    }
-
-    .texto-ultimos-posts{
-        text-align: center;
-    }
-
-    .agende{
-        font-size: 15px;
-    }
-
-    .post{
-        width: 100%;
         height: 100%;
+        object-fit: cover;
+        object-position: 0px -92px;
     }
 
-    .conteiner-agende{
+     /*-----------------------------------------------------INICIO PRIMEIRA SESSÃO - SOBRE MIM------------------------------------------------------------------------ */
+
+    .section-topo{
+        padding: 20px 0px;
+        gap: 12px;
         width: 100%;
+        margin-bottom: 0; 
+        margin-left: 0;
+        justify-content: flex-end;
+
     }
+    
+    .sobremim-topo{
+        font-size: 15px;
+        padding: 10px;
+        font-weight: bold;
+        
+    }
+    .texto-section-topo{
+        width: 62%;
+        background-color: #fafafa;
+    }
+    .lorem-section-topo{
+        font-size: 12px;
+        line-height: 13px;
+        padding: 9px 15px;
+        font-weight: 500;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+    .agende{
+        font-size: 8px;
+        padding: 10px 8px;
+        letter-spacing: 1px;
+    }
+
+
+    .conteiner-foto-brenna{
+        width: 126px;
+        height: 263px;
+        padding: 0px 10px;
+        margin-left: 0;
+    }
+    .foto-brenna{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        object-fit: cover;
+        object-position: -41px 0px;
+    }
+    .fundo-img-Brenna{
+        height: 100%;
+        top: 0px;
+        width: 103px;
+        position: absolute;
+        left: 19px;
+        box-shadow: 3px 10px 5px  #b1a480;
+    }
+    
+     /*-----------------------------------------------------INICIO SESSÃO 2 - POSTS------------------------------------------------------------------------ */
+
+    .conteiner-posts{
+        width: 90%;
+        padding: 11px 0px;
+    }
+    .planta-posts{
+        width: 156px;
+        height: 91px;
+    }
+
+    .conteiner-ultimos-posts{
+        width: 100%;
+        padding: 40px 0;
+        justify-content: center;
+    }
+    .ultimos-posts{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 9px;
+        padding: 0;
+    }
+    .texto-ultimos-posts{
+        font-size: 17px;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 5px;
+        padding: 6px;
+}
+    
+    .post{
+        height: 103px;
+        width: 99px;
+
+    }
+
+     /*-----------------------------------------------------INICIO SESSÃO 3 - TRATAMENTOS------------------------------------------------------------------------ */
 
     .conteiner-tratamento{
+        padding: 25px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    #Depoimentos{
         display: flex;
         flex-direction: column;
-
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
     }
 
-    .lista-tratamentos{
-        width: 100%;
+    .h3-tratamentos{
+        font-size: 20px;
+        letter-spacing: 0;
+        text-align: start;
+        padding: 21px 26px;
+    }
+    .lista{
+        padding: 0px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .item-lista{
+        letter-spacing: 0;
     }
 
+
+    .conteiner-img-tratamentos {
+        width: 190px;
+        height: 174px;
+        margin-top: 40px;
+    }
     .img-tratamento{
-        width: 100%;
-        height: 100%;
-    }
+        margin-bottom: 0;
+        margin-left: 18px;
+    }   
+   
+     /*-----------------------------------------------------INICIO SESSÃO 4 - DEPOIMENTOS------------------------------------------------------------------------ */
 
-    .conteiner-img-tratamentos{
-        height: 260px;
-        margin-bottom: 30px;
+    .conteiner-h3-depoimentos {
+        font-size: 20px;
+        margin-bottom: 5px;
     }
-
     .conteiner-depoimentos{
-        height: 280px;
-        gap: 0;
+        padding: 0;
+        height: 156px;
     }
 
-
-    .depoimento4, .depoimento5, .depoimento6{
+    .depoimento1, .depoimento2, .depoimento6 {
+        background-color: #FDFEFD;
+        display: flex;
+        flex-direction: row;
+        padding: 8px;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: justify;
+    }
+    .depoimento2, .depoimento3, .depoimento4, .depoimento5{
         display: none;
     }
-
-    .depoimento1{
-        border-left: #b2a37a 3px solid;
-    }
-
-    .depoimento1, .depoimento2, .depoimento3{
-        border-right: #b2a37a 3px solid;;
-    }
-
-    .lorem-depoimentos{
+    .botao-depoimentos{
+        width: 68%;
         font-size: 10px;
-        line-height: 19px;
-        text-align: start;
+        letter-spacing: 1px;
+        padding: 12px 6px;
     }
 
-    .redes-sociais{
-        width: 33px;
-        height: 33px;
+    /*-----------------------------------------------------INICIO SESSÃO 5 - EBOOK-S ------------------------------------------------------------------------ */
+    .conteiner-ultima-section{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px;
+        margin-bottom: 15px;
     }
+
+  
+    .conteiner-ebooks-texto {
+        padding: 8px 6px;
+        gap: 2px;
+        width: 339px;
     }
+    .ebook{
+        width: 127px;
+        height: 162px;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+    .pai-ebooks{
+        gap: 8px;
+    }
+    .p-ebook, .p-guia{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .conteiner-guia{
+        padding: 0px 0px;
+        width: 337px;
+        height: 300px;
+        gap: 15px;
+    }
+    .guia{
+        border-radius: 10px;
+        width: 100%;
+        height: 218px;
+        object-fit: cover;
+    }
+
+     /*-----------------------------------------------------INICIO FOOTER ----------------------------------------------------------------------- */
+    .conteiner-footer{
+        padding: 5px 15px;
+    }
+    .h2-footer{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .crp{
+        font-size: 10px;
+    }
+    .texto-redes{
+        font-size: 10px;
+    }
+    .conteiner-redes{
+        gap: 0;
+    }
+    .logo-insta, .logo-spotify{
+        width: 21px;
+        height: 25px;
+    }
+
+    }
+
+    @media (max-width:800px) and (min-width: 601px) {
+
+        /*-----------------------------------------------------INICIO CABECARIO----------------------------------------------------------------------------------- */
+        
+        .conteiner-cabecario{
+            justify-content: space-between;
+            gap: 5px;
+            position: fixed;
+            padding: 10px 10px;
+            width: 97%;
+            z-index: 2;
+        }
+    
+        .conteiner-logo{
+            width: 50px;
+            height: 50px;
+        }
+    
+        .conteiner-nav{
+            gap: 5px;
+        }
+        .menu-nav{
+            font-size: 12px;
+            letter-spacing: 0;
+        }
+        /*-----------------------------------------------------INICIO IMAGEM ABAIXO CABECARIO------------------------------------------------------------------------ */
+    
+        .conteiner-imagem-cabecario{
+            width: 100vw;
+            height: 148px;
+        }
+        .img-cabecario{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 0px -92px;
+        }
+    
+         /*-----------------------------------------------------INICIO PRIMEIRA SESSÃO - SObre MIM------------------------------------------------------------ */
+    
+        .section-topo{
+            padding: 20px 0px;
+            gap: 12px;
+            width: 100%;
+            margin-bottom: 0; 
+            margin-left: 0;
+            justify-content: flex-end;
+    
+        }
+        
+        .sobremim-topo{
+            font-size: 15px;
+            padding: 10px;
+            font-weight: bold;
+            
+        }
+        .texto-section-topo{
+            width: 62%;
+            background-color: #fafafa;
+        }
+        .lorem-section-topo{
+            font-size: 12px;
+            line-height: 13px;
+            padding: 9px 8px;
+            font-weight: 500;
+            letter-spacing: 0;
+            margin-bottom: 5px;
+        }
+        .agende{
+            font-size: 8px;
+            padding: 10px 8px;
+            letter-spacing: 1px;
+        }
+    
+    
+        .conteiner-foto-brenna{
+            width: 126px;
+            height: 263px;
+            padding: 0px 10px;
+            margin-left: 0;
+        }
+        .foto-brenna{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            object-fit: cover;
+            object-position: -41px 0px;
+        }
+        .fundo-img-Brenna{
+            height: 100%;
+            top: 0px;
+            width: 103px;
+            position: absolute;
+            left: 19px;
+            box-shadow: 3px 10px 5px  #b1a480;
+        }
+        
+         /*-----------------------------------------------------INICIO SESSÃO 2 - POSTS------------------------------------------------------------------------ */
+    
+        .conteiner-posts{
+            width: 90%;
+            padding: 11px 0px;
+        }
+        .planta-posts{
+            width: 156px;
+            height: 91px;
+        }
+    
+        .conteiner-ultimos-posts{
+            width: 100%;
+            padding: 40px 0;
+            justify-content: center;
+        }
+        .ultimos-posts{
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 9px;
+            padding: 0;
+        }
+        .texto-ultimos-posts{
+            font-size: 17px;
+            text-align: left;
+            font-weight: bold;
+            margin-left: 5px;
+            padding: 6px;
+        }
+        
+        .post{
+            height: 103px;
+            width: 99px;
+    
+        }
+    
+         /*-----------------------------------------------------INICIO SESSÃO 3 - TRATAMENTOS------------------------------------------------------------------------ */
+    
+        .conteiner-tratamento{
+            padding: 25px 0px;
+            justify-content: center;
+            align-items: center;
+            gap: 75px;
+            margin-bottom: 0px;
+            width: 100%;
+        }
+        #Depoimentos{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .h3-tratamentos{
+            font-size: 20px;
+            letter-spacing: 0;
+            text-align: start;
+            padding: 21px 26px;
+        }
+        .lista{
+            padding: 0px;
+            font-size: 12px;
+            line-height: 25px;
+        }
+        .item-lista{
+            letter-spacing: 0;
+        }
+    
+    
+        .conteiner-img-tratamentos {
+            width: 190px;
+            height: 174px;
+            margin-top: 40px;
+        }
+        .img-tratamento{
+            margin-bottom: 0;
+            margin-left: 18px;
+        }   
+       
+         /*-----------------------------------------------------INICIO SESSÃO 4 - DEPOIMENTOS------------------------------------------------------------------------ */
+    
+        .conteiner-h3-depoimentos {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .conteiner-depoimentos{
+            padding: 0;
+            height: 156px;
+        }
+    
+        .depoimento1, .depoimento2, .depoimento6 {
+            background-color: #FDFEFD;
+            display: flex;
+            flex-direction: row;
+            padding: 8px;
+            font-size: 10px;
+            line-height: 14px;
+            text-align: justify;
+        }
+        .depoimento2, .depoimento3, .depoimento4, .depoimento5{
+            display: none;
+        }
+        .botao-depoimentos{
+            width: 68%;
+            font-size: 10px;
+            letter-spacing: 1px;
+            padding: 12px 6px;
+        }
+    
+        /*-----------------------------------------------------INICIO SESSÃO 5 - EBOOK-S ------------------------------------------------------------------------ */
+        .conteiner-ultima-section{
+            flex-direction: column;
+            gap: 40px;
+            padding: 0px;
+            margin-bottom: 15px;
+        }
+    
+      
+        .conteiner-ebooks-texto {
+            padding: 8px 6px;
+            gap: 2px;
+            width: 339px;
+        }
+        .ebook{
+            width: 127px;
+            height: 162px;
+            padding: 10px;
+            border-radius: 20px;
+            
+        }
+        .pai-ebooks{
+            gap: 8px;
+        }
+        .p-ebook, .p-guia{
+            font-size: 13px;
+            line-height: 17px;
+        }
+        .conteiner-guia{
+            padding: 0px 0px;
+            width: 337px;
+            height: 300px;
+            gap: 15px;
+        }
+        .guia{
+            border-radius: 10px;
+            width: 100%;
+            height: 218px;
+            object-fit: cover;
+        }
+    
+         /*-----------------------------------------------------INICIO FOOTER ----------------------------------------------------------------------- */
+        .conteiner-footer{
+            padding: 5px 15px;
+        }
+        .h2-footer{
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+        .crp{
+            font-size: 10px;
+        }
+        .texto-redes{
+            font-size: 10px;
+        }
+        .conteiner-redes{
+            gap: 0;
+        }
+        .logo-insta, .logo-spotify{
+            width: 21px;
+            height: 25px;
+        }
+}    
