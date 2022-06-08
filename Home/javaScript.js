@@ -1,18 +1,27 @@
-// function teste(){
-//     var btn = document.getElementById('hamburguer')
-//     var modal =  document.getElementById('conteiner-modal')
-//     var cabecario = document.querySelector('.conteiner-cabecario')
+$('.carrosel').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    centerMode: true,
+    variableWidth: true,
+    infinite: true,
+    autoplay: true,
 
-//     modal.style.opacity = "1"
-//     cabecario.style.display= "none"
-// }
+  });    
+  
+  $('.conteiner-carrosel-depoimentos').slick({
+
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: true,
+    adaptiveHeight: true,
+  });
 
 
-// function closeModal(){
-//     var modal =  document.getElementById('conteiner-modal')
-//     var cabecario = document.querySelector('.conteiner-cabecario')
 
-//     modal.style.opacity='0'
 
-//     cabecario.style.display = "flex"
-// }
