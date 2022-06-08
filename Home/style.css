@@ -1214,6 +1214,9 @@ p{
         letter-spacing: 0;
     }
 
+    .agende{
+        font-size: 18px;
+    }
     .modal-depoimentos{
         width: 80%;
     }
