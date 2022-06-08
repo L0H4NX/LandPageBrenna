@@ -1,0 +1,1528 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: #fafafa !important;
+    width: 100%;
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar-expand-lg{
+    justify-content: space-between !important;
+}
+
+
+
+ /*-----------------------------------------------------INICIO CABECARIO-------------------------------------------------------------------------------------------- */
+
+.conteiner-cabecario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    background-color: #777a58;
+    padding: 15px;
+}
+
+.logo{
+    width: 77px;
+}
+
+.conteiner-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+}
+.divisao-menu{
+    width: 1px;
+    background-color: #fff;
+    height: 15px;
+}
+.menu-nav{
+    font-size: 21px !important;
+    color: white !important;
+    letter-spacing: 1px;
+    padding: 10px;
+    transition:  linear 0.5s !important;
+    text-decoration: none;
+}
+.menu-nav:hover{
+    background-color: rgba(46, 43, 43, 0.197);
+}
+
+
+
+ /*-----------------------------------------------------INICIO IMAGEM ABAIXO CABECARIO------------------------------------------------------------------------ */
+
+
+.img-cabecario{
+    width: 100%;
+    height: 228px;
+    object-fit: cover;
+    object-position: 0px -609px;
+
+}
+
+ /*-----------------------------------------------------INICIO PRIMEIRA SESSÃO - SOBRE MIM------------------------------------------------------------------------ */
+
+.conteiner-foto-brenna{
+    width: 337px;
+    height: 515px;
+    margin-left: 250px;
+    text-align: center;
+    position: inherit;
+}
+.foto-brenna{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
+}
+.fundo-img-Brenna{
+    height: 102%;
+    top: 0px;
+    width: 332px;
+    position: absolute;
+    left: 130px;
+    background-color: #D6CCC2;
+}
+
+.section-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px 25px 50px 25px;
+    position: relative;
+    gap: 80px;
+}
+
+.texto-section-topo{
+    width: 70%;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    gap: 20px;
+    letter-spacing: 3px;
+}
+.sobremim-topo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 44px 20px 0px 19px;
+
+}
+
+.conteiner-texto-sobremim{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 93%;
+}
+.texto-sobremim{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.conteiner-agende{
+    text-decoration: none;
+}
+.agende{
+    background-color: #D6CCC2;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: #adac86 5px 5px 5px;
+    border: none;
+    letter-spacing: 3px;
+    transition:linear 0.5s;
+}
+
+.agende:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: rgba(108, 106, 74, 0.092);
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 2 - POSTS------------------------------------------------------------------------ */
+
+ .conteiner-ultimos-posts{
+    position: relative;
+    background-color: #faf2f5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0;
+}
+.conteiner-posts{
+    background-color: white;
+    width: 1447px;
+    padding: 34px;
+    box-shadow: 5px 5px 5px gray;
+}
+.planta-posts{
+    position: absolute;
+    width: 373px;
+    height: 227px;
+    right: 0;
+    top: 0;
+}
+
+
+.texto-ultimos-posts{
+    margin-left: 14px;
+    padding: 20px;
+}
+.h2-ultimos-posts{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.post{
+    width: 267px;
+    height: 272px;
+    object-fit: cover;
+    transition: linear 0.5s; 
+}
+.post:hover{
+    opacity: 0.70;
+    background-color: rgba(147, 106, 45, 0.8);   
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 3 - TRATAMENTOS------------------------------------------------------------------------ */
+
+.conteiner-tratamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: #fafafa;
+}
+
+.h3-tratamentos{
+    font-size: 35px; 
+    letter-spacing: 3px;
+    padding: 50px 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.lista-tratamentos{
+    text-align: center;
+}
+.lista{
+    padding: 13px 80px;
+    font-size: 28px;
+    text-align: start;
+    font-weight: 500;
+    line-height: 65px;
+    
+}
+.item-lista{
+    letter-spacing: 2px;
+}
+
+.conteiner-img-tratamentos{
+    width: 763px;
+    height: 557px;
+}
+.img-tratamento{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 5px #706956;
+    margin-bottom: 75px;
+    object-fit: cover;
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 4 - DEPOIMENTOS------------------------------------------------------------------------ */
+
+.conteiner-carrosel-depoimentos{
+    width: 686px;
+    margin-left: 0px;
+    height: 253px;
+}
+.conteiner-depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    background-color: #fafafa;
+    
+}
+.dp-1,.dp-2, .dp-4, .dp-5{
+    text-align: center !important;
+    margin: 0 !important;
+}
+.dp-3{
+    height: 316px !important;
+    top: -20px !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.p-dp1,.p-dp2, .p-dp3, .p-dp4, .p-dp5{
+    font-size: 23px !important;
+    margin-bottom: 15px !important;
+}
+.h2-depoimento{
+    color: #000;
+    font-size: 35px !important;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.conteiner-titulo-modal{
+    text-align: center;
+    line-height: 3px;
+    padding: 17px;
+}
+
+.titulo-modal-dp{
+    font-size: 50px;
+}
+.subtitulo-modal-dp{
+    font-size: 20px;
+}
+
+.conteiner-nome-idade, .pai-estado-cidade, .pai-email-telefone{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.campo{
+    width: 270px;
+}
+.button-enviar-dp {
+    font-family: inherit;
+    font-size: 20px;
+    background: #D6CCC2;
+    color: #000;
+    width: 40%;
+    justify-content: center;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-top: 20px;
+   }
+   
+.button-enviar-dp span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+.button-enviar-dp svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+.button-enviar-dp:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+.button-enviar-dp:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+.button-enviar-dp:hover span {
+    transform: translateX(5em);
+   }
+   
+.button-enviar-dp:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+
+   
+   .modal-depoimentos label{
+       font-size: 22px;
+   }
+   .modal-depoimentos input{
+       width: 85%;
+   }
+   .modal-depoimentos select{
+       width: 85%;
+       height: 26px;
+   }
+
+   .pai-ipt{
+       display: flex;
+       flex-direction: column;
+       gap: 8px;
+   }
+.botao-depoimentos{
+    border: none;
+    background-color: #D6CCC2;
+    color: #000;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: linear 0.5s;
+    letter-spacing: 2px;
+}
+.botao-depoimentos:hover{
+    background-color: #e2ddd285;
+    letter-spacing: 0px;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #000 !important;
+    font-size: 35px !important;
+}
+
+.conteiner-modal-depoimentos{
+    opacity: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: linear 0.5s;
+    
+}
+
+.conteiner-modal-depoimentos.open{
+    
+    display: block;
+}
+.modal-depoimentos{
+    backdrop-filter: blur(2px) saturate(88%);
+    -webkit-backdrop-filter: blur(2px) saturate(88%);
+    background-color: rgba(119, 122, 88, 0.83);
+    height: 535px;
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    position: relative;
+}
+#closemodal{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 36px;
+}
+.campo-dp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-dp{
+    text-align: center;
+    width: 100%;
+}
+
+ /*-----------------------------------------------------INICIO SESSÃO 5 - EBOOKS ------------------------------------------------------------------------ */
+
+.conteiner-ultima-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    background-color: #fafafa;
+    padding: 66px 66px;
+}
+
+
+
+
+.conteiner-ebooks-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding:24px 24px 0px 24px;
+    background-color: #faf2f5;
+    border-radius: 10px;
+}
+
+.conteiner-guia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    background-color: #faf2f5;
+    border-radius: 10px;
+    padding: 24px 24px 0px 24px;
+
+}
+.pai-ebooks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ebook{
+    width: 250px;
+    height: 293px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: linear 0.5s;
+}
+
+.guia{
+    width: 394px;
+    height: 289px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: linear 0.5s;
+}
+.guia:hover, .ebook:hover{
+    opacity: 0.70;
+}
+.p-ebook, .p-guia{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+}
+
+ /*-------------------------------------------------------------------INICIO FOOTER ------------------------------------------------------------------------------ */
+
+.conteiner-footer{
+    background-color: #777a58;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 43px;
+    gap: 3px;
+}
+.conteiner-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.texto-redes{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+.logo-insta{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+.logo-spotify{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.conteiner-texto-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  
+}
+.h2-footer{
+    font-size: 25px ;  
+    color: #fff !important;
+    letter-spacing: 3px;
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+}
+.crp{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+
+
+
+    /*-----------------------------------------------------INICIO MEDIA 600PX------------------------------------------------------------------------ */
+    
+
+.slick-center img{
+    height: 300px !important;
+    width: 300px !important;
+    opacity: 1 !important;
+    /* padding: 15px !important; */
+}
+
+.slick-slide {
+    padding: 15px !important;
+
+}
+.slick-slide img{
+    opacity: 0.9 !important;
+}
+
+
+
+/* .slick-track {
+    transform: translate3d(-1163px, 0px, 0px) !important;
+} */
+
+.lorem-depoimentos{
+    font-size: 24px;
+    line-height: 1.8;
+    text-align: center;
+}
+/* 
+.depoimento3, .depoimento5 {
+    width: 1021px !important;
+} */
+
+.slick-dots{
+    display: none !important;
+}
+
+.conteiner-menu-lateral{
+    opacity: 0;
+    position: absolute;
+}
+
+.conteiner-botao-openmenu{
+    display: none;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.h1-responsive{
+    display: none;
+}
+.redes-responsivo{
+    display: none;
+}
+
+.nav-modal{
+    display: none;
+}
+
+@media screen and (max-width: 1460px){
+    .conteiner-posts{
+        width: 100vw;
+    }
+    .img-cabecario{
+        object-position: 0px -385px;
+    }
+}
+
+
+@media screen and (max-width: 1360px){
+    .lita{
+        padding: 0;
+    }
+    .conteiner-img-tratamentos{
+        width: 583px;
+    height: 417px;
+    }
+    .conteiner-foto-brenna{
+        width: 503px;
+        height: 593px;
+        margin-left: 148px;
+    }
+    
+    .section-topo{
+        gap: 69px;
+    }
+    .lorem-section-topo{
+        padding: 31px 18px 3px 0px;
+    }
+
+    .conteiner-posts{
+        width: 1177px;
+        height: 465px;
+    }
+}
+    
+@media screen and (max-width: 1130px) {
+    .conteiner-cabecario{
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+
+    .section-topo{
+        padding: 0px 25px 10px 0px;
+    }
+    .fundo-img-Brenna{
+        top: 0px;
+        width: 277px;
+    }
+    .lorem-section-topo{
+        padding: 0;
+    }
+    .conteiner-posts{
+        width: 1046px;
+    }
+    .lista{
+        padding: 0;
+    }
+
+
+    .conteiner-img-tratamentos{
+        width: 477px;
+        height: 361px;
+    }
+    .img-tratamento{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .conteiner-posts{
+        width: 982px;
+    }
+    
+    .conteiner-ultima-section{
+        flex-direction: column;
+    }
+
+    .conteiner-img-tratamentos{
+        width: 432px;
+        height: 321px;
+    }
+}
+
+@media screen and (max-width: 995px){
+    .conteiner-nav{
+        gap: 10px;
+    }
+    .conteiner-foto-brenna{
+        margin-left: 89px;
+        width: 420px;
+        height: 564px;
+    }
+    .img-cabecario{
+        object-position: 0px -298px;
+    }
+    .fundo-img-Brenna{
+        left: 66px;
+    }
+    .section-topo{
+        gap: 25px;
+    }
+    .conteiner-posts{
+        width: 949px;
+    }
+
+    .dp-3{
+        height: 90% !important;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .conteiner-posts{
+        width: 880px;
+    }
+    .lista{
+        font-size: 26px;
+    }
+    .conteiner-img-tratamentos{
+        width: 387px;
+        height: 303px;
+    }
+}
+
+/*VERsÃO INICIAL PARA CELULAR*/
+
+@media screen and (max-width: 914px){
+    .conteiner-cabecario{
+        position: fixed;
+        width: 100vw;
+        z-index: 2000;
+        justify-content: flex-end;
+        padding: 0px 10px;
+    }
+    .conteiner-nav{
+        display: none;
+    }
+    .img-cabecario{
+        display: none;
+    }
+    .conteiner-botao-openmenu{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding: 15px;
+        align-items: center;
+    }
+    .conteiner-menu-lateral.on{
+        position: absolute;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(2px) saturate(88%);
+        -webkit-backdrop-filter: blur(2px) saturate(88%);
+        background-color: rgba(119, 122, 88, 0.83);
+        z-index: 5000;
+        width: 100vw;
+        height: 100vh;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        transition: linear 0.5s;
+        position: fixed;
+    }
+    .nav-modal{
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: linear 0.5s;
+    }
+    .nav-modal .menu-modal{
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        transition: linear 0.5s;
+    }
+    .menu-toggle-close{
+        width: 10%;
+        height: 100%;
+        padding: 26px 0px;
+        transition: linear 0.5s;
+    }
+    .menu-toggle-close .one{
+        transform: rotate(45deg) translate(7px,7px);
+        transition-duration: 0.3s;
+    }
+    .conteiner-menu-lateral.on .menu-toggle-close .two{
+        opacity: 0;
+    }
+    .conteiner-menu-lateral.on .menu-toggle-close .three{
+        transform: rotate(-45deg) translate(8px,-8px);
+    }
+    
+
+    .menu-toggle-open{
+        width: 48px;
+        height: 46px;
+    }
+    .one-p , .two-p, .three-p{
+        background-color: #ffff;
+        height: 5px;
+        width: 100%;
+        margin: 5px auto;
+        border-radius: 235px;
+        transition-duration: 0.3s;
+    }
+    .menu-toggle-close {
+        width: 10%;
+        height: 100vh;
+    }
+    .one, .two, .three{
+        width: 42%;
+        height: 5px;
+        margin: 5px auto;
+        background-color: #fff;
+        transition:linear 0.5s;
+    }
+    
+   .opcoes-botao-menu{
+       color: #ffff;
+       font-size: 22px;
+       transition-duration: 0.5s;
+       font-family: "Anton", sans-serif;
+       font-weight: bold;
+   }
+
+   .section-topo{
+       flex-direction: column;
+       padding: 120px 0px 40px 0px;
+   }
+   .conteiner-foto-brenna{
+       margin-left: 0px;
+       width: 223px;
+       height: 315px;
+   
+   }
+   .fundo-img-Brenna{
+        left: 0px;
+        top: 170px;
+        width: 100vw;
+        height: 232px;
+   }
+   .sobremim-topo{
+       display: none;
+   }
+   .texto-sobremim{
+       letter-spacing: 0;
+   }
+   .h1-responsive{
+        display: block;
+        font-size: 29px;
+        letter-spacing: 0px;
+        font-weight: bold;
+
+   }
+   .conteiner-posts{
+       width: 80%;
+       height: 390px !important;
+   }
+   .post{
+        width: 238px !important;
+        height: 244px !important;
+   }
+   .slick-center img {
+        height: 261px !important;
+        width: 280px !important;
+}
+   .planta-posts{
+        width: 310px;
+        height: 196px;
+   }
+   .texto-section-topo{
+       width: 85%;
+       gap: 15px;
+       align-items: flex-start;
+   }
+   .texto-ultimos-posts{
+       padding: 5px;
+   }
+   .conteiner-agende{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+   .agende{
+    background-color: #D6CCC2; 
+    margin: 25px 0px;
+   }
+   
+   .redes-responsivo{
+       display: flex;
+       flex-direction: column;
+       margin-left: 0px;
+       text-align: start;
+       gap: 0px;
+   }
+   .acompanhe-responsivo{
+        font-size: 24px;
+        color: #6c6a4a;
+        letter-spacing: 0;
+        font-weight: bold;
+   }
+   .pai-redes-responsivo{
+       display: flex;
+       flex-direction: row;
+       gap: 20px;
+   }
+   .logo-insta-responsivo, .logo-spotify-responsivo{
+        width: 40px;
+   }
+
+   .item-lista{
+       letter-spacing: 0;
+   }
+   .slick-next{
+       left: 95%;
+   }
+
+   .conteiner-tratamento{
+       flex-direction: column;
+       padding: 0;
+       gap: 25px;
+       margin-bottom: 55px;
+   }
+   .conteiner-img-tratamentos{
+        width: 467px;
+        height: 369px;
+   }
+   .h3-tratamentos{
+       padding: 35px 0px;
+       font-size: 40px;
+   }
+   .lista{
+       font-size: 36px;
+       line-height: 75px;
+   }
+
+   .h2-depoimento{
+       font-size: 45px;
+       margin-bottom: 0px !important;
+   }
+   .h2-footer{
+       font-size: 18px;
+   }
+   .crp{
+       font-size: 14px;
+   }
+
+   .modal-depoimentos{
+    backdrop-filter: blur(2px) saturate(88%);
+    -webkit-backdrop-filter: blur(2px) saturate(88%);
+    background-color: rgba(119, 122, 88, 0.83);
+    height: 535px;
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+   }
+
+}
+
+@media screen and (max-width: 771px) {
+    
+    .section-topo{
+        gap: 50px;
+    }
+    .conteiner-carrosel-depoimentos{
+        width: 85%;
+        height: 276px;
+    }
+    .conteiner-agende{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .p-dp3{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+   .lista{
+    font-size: 29px;
+    line-height: 61px;
+   }
+}
+@media screen and (max-width: 580px) {
+    
+
+    .section-topo{
+        padding: 86px 0px 0px 0px;
+    }
+
+    .conteiner-botao-openmenu{
+        padding: 7px 15px;
+    }
+
+    .logo-insta-responsivo, .logo-spotify-responsivo{
+        width: 60px;
+    }
+
+    .conteiner-foto-brenna{
+        width: 141px;
+        height: 190px;
+    }
+    .fundo-img-Brenna{
+        left: 0px;
+        top: 113px;
+        width: 100vw;
+        height: 140px;
+    }
+    .lorem-section-topo{
+        font-size: 17px;
+    }
+
+    .h1-responsive{
+        font-size: 20px;
+    }
+
+    .planta-posts{
+        height: 136px;
+        width: 226px;
+    }
+    
+    .conteiner-img-tratamentos{
+        width: 346px;
+        height: 250px;
+    }
+    .lista{
+        font-size: 28px;
+        line-height: 52px;
+    }
+
+    .conteiner-carrosel-depoimentos{
+        height: 376px;
+    }
+    .dp-3{
+        height: 438px !important;
+    }
+    .botao-depoimentos{
+        font-size: 15px;
+    }
+    
+    .conteiner-ultima-section{
+        gap: 25px;
+    }
+    .conteiner-ebooks-texto{
+        gap: 10px;
+    }
+    .ebook{
+        width: 177px;
+        height: 203px;
+    }
+    .p-ebook{
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .conteiner-guia{
+        gap: 10px;
+    }
+    .guia{
+        width: 291px;
+        height: 218px;
+    }
+    .p-guia{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .conteiner-footer{
+        padding: 3px;
+    }
+    .h2-footer{
+        font-size: 20px;
+    }
+    .crp{
+        font-size: 15px;
+    }
+
+    .conteiner-redes{
+        gap: 0;
+    }
+    .texto-redes{
+        font-size: 15px;
+    }
+    .logo-insta-responsivo, .logo-spotify-responsivo{
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width: 556px) {
+    
+    .one, .two, .three{
+        width: 95%;
+    }
+    .texto-section-topo{
+        gap: 19px;
+    }
+    .conteiner-botao-openmenu{
+        padding: 2px 5px;
+    }
+    
+    .p-dp1, .p-dp2, .p-dp3, .p-dp5{
+        font-size: 19px !important;
+    }
+    .p-dp4{
+        font-size: 17px !important;
+    }
+
+    .conteiner-tratamento{
+        margin-bottom: 90px;
+    }
+    .lista{
+        font-size: 22px;
+    }
+
+    .conteiner-depoimentos{
+        gap: 45px;
+    }
+    .botao-depoimentos{
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .conteiner-footer{
+        padding: 3px 15px;
+    }
+    .h2-footer{
+        letter-spacing: 0;
+    }
+    .crp{
+        font-size: 10px;
+    }
+    .texto-redes{
+        letter-spacing: 0;
+    }
+
+    .agende{
+        font-size: 18px;
+    }
+    .modal-depoimentos{
+        width: 80%;
+    }
+    .conteiner-nome-idade, .pai-estado-cidade, .pai-email-telefone {
+        flex-direction: column;
+        gap: 0;
+    }
+    .modal-depoimentos input select{
+        width: 100%;
+    }
+    .titulo-modal-dp{
+        font-size: 36px;
+        color: #fff;
+    }
+    .subtitulo-modal-dp{
+        font-size: 17px;
+        color: #fff;
+    }
+    .deixe-dp{
+        color: #fff;
+    }
+    .menu-toggle-close{
+        width: 17%;
+    }
+    .one, .two, .three {
+        width: 47%;
+    }
+    #depoimento{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    
+    .conteiner-carrosel-depoimentos{
+        height: 238px;
+    }
+    .p-dp1, .p-dp2, .p-dp3, .p-dp4, .p-dp5 {
+        font-size: 90% !important;
+        margin: 0 !important;
+    }
+}
+@media screen and (max-width: 451px) {
+    
+
+    .h1-responsive{
+        margin-bottom: 0 !important;
+    }
+    .botao-depoimentos{
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+
+    .conteiner-ultima-section{
+        padding: 27px 66px;
+    }
+    .ebook{
+        width: 151px;
+        height: 190px;
+    }
+    .guia{
+        width: 279px;
+        height: 184px;
+    }
+   .p-ebook{
+    font-size: 12px;
+    line-height: 17px;
+   }
+   .p-guia{
+       font-size: 11px;
+       line-height: 15px;
+   }
+
+   .h2-footer{
+       font-size: 15px;
+   }
+   .crp{
+       font-size: 9px;
+   }
+   .texto-redes{
+       font-size: 10px;
+   }
+
+   .agende{
+       font-size: 15px;
+       letter-spacing: 0px;
+   }
+}
+
+@media screen and (max-width: 424px){
+    .conteiner-carrosel-depoimentos{
+        height: 300px;
+    }
+
+    .conteiner-botao-openmenu{
+        align-items: center;
+    }
+    .one-p, .two-p, .three-p{
+        height: 3px;
+    }
+    .menu-toggle-open{
+        width: 47px;
+    }
+    .opcoes-botao-menu{
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .lista{
+        font-size: 21px;
+        line-height: 36px;
+    }
+    .conteiner-img-tratamentos{
+        width: 291px;
+        height: 250px;
+    }
+
+    .slick-prev:before, .slick-next:before{
+        font-size: 26px !important;
+    }
+
+    .logo-insta, .logo-spotify{
+        width: 25px;
+        height: 26px;    
+    }
+}
+
+@media screen and (max-width: 385px) {
+    
+
+    .h1-responsive{
+        font-size: 17px;
+    }
+    .texto-sobremim{
+        font-size: 17px;
+    }
+
+    .texto-ultimos-posts{
+        margin-left: 0;
+        padding: 20px 0px;
+    }
+
+    .lista{
+    font-size: 17px;
+    line-height: 33px;
+    }
+
+    .slick-next{
+        left: 91%;
+    }
+
+    .conteiner-ebooks-texto{
+        padding: 13px 14px 0px 14px;
+    }
+    .pai-ebooks{
+        gap: 5px;
+    }
+    .ebook{
+        width: 134px;
+        height: 153px;
+    }
+    .p-ebook{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .guia{
+        width: 243px;
+        height: 151px;
+    }
+
+    .slick-center img{
+        height: 233px !important;
+        width: 238px !important;
+    }
+    .conteiner-posts{
+        padding: 15px 34px;
+        height: 400px !important;
+    }
+    .post{
+        width: 247px;
+        height: 244px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    
+    .h1-responsive{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .acompanhe-responsivo{
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    .texto-section-topo{
+        width: 80%;
+    }
+    .p-dp3{
+        font-size: 90% !important;
+    }
+
+    .h2-ultimos-posts{
+        font-size: 22px !important;
+        text-align: center;
+    }
+
+    .h2-depoimento{
+        font-size: 27px !important;
+    }
+
+    .h3-tratamentos{
+        font-size: 27px !important;
+    }
+
+    .conteiner-img-tratamentos{
+        width: 243px;
+        height: 172px;
+    }
+    .lista{
+        font-size: 15px;
+        line-height: 36px;
+    }
+
+    .botao-depoimentos{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .guia{
+        width: 223px;
+        height: 131px;
+    }
+}
+
+@media screen and (max-width: 307px) {
+    
+    .nav-modal .menu-modal{
+        font-size: 19px;
+    }
+
+    .h1-responsive{
+        letter-spacing: 0;
+    }
+    .agende{
+        font-size: 11px;
+    }
+    .pai-redes-responsivo{
+        gap:8px;
+    }
+    .logo-insta-responsivo, .logo-spotify-responsivo{
+        padding: 0px;
+        width: 27px;
+        height: 28px;
+    }
+    
+    .conteiner-carrosel-depoimentos{
+        height: 330px;
+    }
+    .lista{
+        font-size: 13px;
+        line-height: 33px;
+    } 
+    
+    .botao-depoimentos{
+        font-size: 9px;
+    }
+    .ebook{
+        width: 115px;
+        height: 142px;
+    }
+}
+
+@media screen and (max-width: 289px) {
+    .p-dp1,
+    .dp-2,
+    .p-dp3{
+        font-size: 80% !important;
+    }
+
+    .conteiner-carrosel-depoimentos{
+        height: 265px !important;
+    }
+}
+
+@media screen and (max-width: 271px) {
+    .conteiner-carrosel-depoimentos{
+        height: 287px;
+    }
+
+    .h2-ultimos-posts{
+        font-size: 20px !important;
+    }
+    .conteiner-ultimos-posts{
+        padding: 34px 0px;
+    }
+    .planta-posts{
+        height: 105px;
+        width: 127px;
+    }
+
+    
+    .ebook{
+        width: 91px;
+        height: 103px;
+    }
+}
