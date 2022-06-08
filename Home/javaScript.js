@@ -7,7 +7,8 @@ $('.carrosel').slick({
     infinite: true,
     autoplay: true,
 
-  });    
+  });   
+   
   
   $('.conteiner-carrosel-depoimentos').slick({
 
