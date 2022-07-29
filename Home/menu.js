@@ -44,3 +44,18 @@ document.getElementById("idade").onkeypress = function(e) {
   if ("1234567890".indexOf(chr) < 0)
     return false;
 };
+
+var btnModalAgende = document.getElementById("button-abrir-modal-agende")
+
+
+function abrirModalAgende(){
+  var modalAgende = document.querySelector(".conteiner-modal-agende")
+  modalAgende.style.opacity = "1"
+  modalAgende.style.zIndex = "80000"
+}
+
+function closeModalAgende(){
+  var modalAgende = document.querySelector(".conteiner-modal-agende")
+  modalAgende.style.opacity = "0"
+  modalAgende.style.zIndex = "-2"
+}

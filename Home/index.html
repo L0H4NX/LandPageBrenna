@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Brenna Medeiros</title>
+    <link rel="shortcut icon" href="/assets/logo-brenna-icon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e8763681a1.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
@@ -30,11 +29,11 @@
      <header> 
          
         <div class="conteiner-cabecario">
-            
+            <img class="logo-responsivo" src="/assets/logo-brenna1.png" alt="">
             <div class="conteiner-botao-openmenu">
                 <p class="opcoes-botao-menu">Opções</p>
                <!-- <div>-->
-                    <img id="menu-hamburguer" onclick="openmenu()" class="menu-toggle-open"  src="/assets/menu-hamburguer.png" alt="">
+                    <img id="menu-hamburguer" onclick="openmenu()" class="menu-toggle-open"  src="/assets/menu-hamburguer.png" alt="imagem de um menu lateral, clique para abrir o menu lateral">
             </div>
 
                 <img class="logo" src="/assets/logo-brenna1.png" alt="Minha Logo">
@@ -74,7 +73,7 @@
     </div>
   <!--Imagem abaixo do cabeçario-->
     
-        <img class="img-cabecario" src="/assets/img-cabecario1.jpeg" alt="">
+        <img class="img-cabecario" src="/assets/img-cabecario1.jpeg" alt=" imagem de um escritorio">
 
 
 
@@ -91,88 +90,87 @@
             </div>
 
             <div class="conteiner-foto-brenna">
-                <img class="foto-brenna" src="/assets/fotoperfilBrenna.jpg" alt="">
+                <img class="foto-brenna" src="/assets/fotoperfilBrenna.jpg" alt="minha foto perfil">
             </div>
 
-            <div class="texto-section-topo">
+            <div class="conteiner-texto-sobremim">
                 <h1 class="sobremim-topo">Sobre Mim</h1>
-                <p class="lorem-section-topo">
-                    Olá! Seja muito bem vindo a minha página! :)
+                <div class="pai-h1-responsive">
+                    <h1 class="h1-responsive">Brenna Medeiros | Psicóloga</h1>
+                </div>
+                <p class="texto-sobremim">
+                    Oi! Seja muito bem vindo a minha página!
                     <br>
                     <br>
-                    Me chamo Brenna Medeiros e sou Psicóloga Clínica. Eu trabalho com a Terapia Cognitivo Comportamental
-                    - um modelo de terapia que possui evidência científica e é mais objetivo e participativo, o que fará
-                    toda diferença em seu tratamento.
+                    Me chamo Brenna Medeiros e sou Psicóloga. Trabalho realizando atendimentos individuais e em grupo, de maneira exclusivamente online. O que permite me conectar com você de onde você estiver. Já realizei atendimentos com pessoas em vários estados do Brasil e no exterior.
                     <br>
                     <br>
-                    Faz parte da minha rotina aprofundar meus estudos sobre maturidade emocional, autoconhecimento,
-                    saúde mental transtornos psicológicos, relacionamentos, entre outros.
+                    Eu trabalho com a Terapia Cognitivo Comportamental - um modelo de terapia que possui evidência científica e é utilizado para tratar diversos transtornos mentais de forma eficiente. Auxiliando também em questões que envolvem nossa vida como um todo, como desenvolvimento pessoal, dificuldades nos relacionamentos, maturidade emocional, entre outros.
                     <br>
                     <br>
-                    Atualmente eu realizo atendimentos individuais e em grupo, de maneira exclusivamente online. O que
-                    permite me conectar com você de onde você estiver. Já realizei atendimentos com pessoas em vários
-                    estados do Brasil e no exterior.
+                    Creio que a vida só é vivida genuinamente se você pode desfrutar dela sendo quem realmente é, acima de qualquer título que alguém ou um transtorno queira trazer à você. E por isso eu espero de verdade poder contribuir de alguma forma com a sua jornada e te ajudar a ressignificar a sua história.
                     <br>
                     <br>
-                    Creio que a vida só é vivida genuinamente se você pode desfrutar dela sendo quem realmente é, acima
-                    de qualquer título que alguém ou um transtorno queira trazer à você. E por isso eu espero de verdade
-                    poder contribuir de alguma forma com a sua jornada e te ajudar a ressignificar a sua história.
-                    <br>
-                    <br>
-                    Se você deseja realizar atendimento comigo, é só clicar no link a baixo que muito em breve eu entro
-                    em contato com você. Até breve! ♡
+                    Se você deseja realizar atendimento comigo, é só clicar no botão abaixo que muito em breve eu entro em contato com você. ♡
                 </p>
-                <a target="_blank" class="conteiner-agende" href="https://forms.gle/q9S2kZzSPoWjq9979"><button
-                        class="agende"> Agende sua sessão aqui</button> </a>
-
+                    <button onclick="abrirModalAgende()" id="button-abrir-modal-agende" class="agende"> Agende sua sessão</button> 
             </div>
+            
+           
         </div>
+         <div class="conteiner-acompanhe">
+                <p class="p-acompanhe">Acompanhe meu trabalho nas redes socias:</p>
+                <div class="conteiner-redes-acompanhe">
+                    <a target="_blank" href="https://www.instagram.com/brennamedeirospsi/"><img class="logo-insta-semcor" src="/assets/logo-insta-semcor.png" alt="Logo do instagram"></a>
+                    <a target="_blank" href="https://open.spotify.com/show/0nMtFuN88oYtbGBBghLbK2?go=1&sp_cid=e9d0e513f5659a664e50c19dca518ef4&utm_source=embed_player_p&utm_medium=desktop&nd=1"><img class="logo-spotify-semcor" src="/assets/logo-spotify-semcor.png" alt="Logo do spotify"></a>
+                </div>
+            </div>
     </section>
 
     <!--Sessão dos posts-->
 
     <section id="Posts">
         <div class="conteiner-ultimos-posts">
-            <img class="planta-posts" src="/assets/plantinha1.png" alt="">
+            <img class="planta-posts" src="/assets/plantinha1.png" alt=" imagem de uma planta, usada como decoração">
             <div class="conteiner-posts">
 
                 <div class="texto-ultimos-posts">
-                    <h3>Últimos Posts</h3>
+                    <h1 class="h2-ultimos-posts"> Últimos Posts</h1>
                 </div>
 
                 <div class="carrosel">
 
                     <div>
                         <a target="_blank" class="" href="https://www.instagram.com/p/CYkJ6lGFtGN/"><img class="post"
-                                src="/assets/img-post1.jpg" alt=""></a>
+                                src="/assets/img-post1.jpg" alt="post do insta"></a>
                     </div>
 
                     <div>
                         <a target="_blank" class="" href="https://www.instagram.com/p/CdbpLdJJoI7/"><img class="post"
-                                src="/assets/img-post2.jpg" alt=""></a>
+                                src="/assets/img-post2.jpg" alt="post do insta"></a>
                     </div>
                     <div>
                         <a target="_blank" class="" href="https://www.instagram.com/p/CRzg7qVHxfX/"><img class="post"
-                                src="/assets/img-post3.jpg" alt=""></a>
+                                src="/assets/img-post3.jpg" alt="post do insta"></a>
                     </div>
                     <div>
                         <a target="_blank" class="" href="https://www.instagram.com/p/CUbPAZSsrGH/"><img class="post"
-                                src="/assets/img-post4.jpg" alt=""></a>
+                                src="/assets/img-post4.jpg" alt="post do insta"></a>
                     </div>
                     <div>
-                        <a href=""><img class="post" src="/assets/img-post5.jpeg" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/p/CaQS6mjFq2r/"><img class="post" src="/assets/img-post5.jpeg" alt="post do insta"></a>
                     </div>
                     <div>
-                        <a href=""><img class="post" src="/assets/img-post6.jpeg"></a>
+                        <a target="_blank" href="https://www.instagram.com/p/CT5wKB2FQPh/"><img class="post" src="/assets/img-post6.jpeg" alt="post do insta"> </a>
                     </div>
                     <div>
-                        <a href=""><img class="post" src="/assets/img-post7.jpeg"></a>
+                        <a target="_blank" href="https://www.instagram.com/p/Cd6iRM8pSIS/"><img class="post" src="/assets/img-post7.jpeg" alt="post do insta"></a>
                     </div>
                     <div>
-                        <a href=""><img class="post" src="/assets/img-post8.jpeg"></a>
+                        <a target="_blank" href="https://www.instagram.com/p/CUK2UlblULD/"><img class="post" src="/assets/img-post8.jpeg" alt="post do insta"></a>
                     </div>
                     <div>
-                        <a href=""><img class="post" src="/assets/img-post9.jpeg"></a>
+                        <a target="_blank" href="https://www.instagram.com/p/CSz3YO0nPBK/"><img class="post" src="/assets/img-post9.jpeg" alt="post do insta"></a>
                     </div>
 
                 </div>
@@ -209,7 +207,7 @@
             </div>
 
             <div class="conteiner-img-tratamentos">
-                <img class="img-tratamento" src="/assets/img-tratamento.jpg" alt="">
+                <img class="img-tratamento" src="/assets/img-tratamento.jpg" alt="imagem, das mãos de uma psicológa">
             </div>
 
         </div>
@@ -218,83 +216,80 @@
 
     <!--Sessão de Depoimentos-->
 
-    <section id="Depoimentos">
-        <div class="conteiner-h3-depoimentos">
-            <h3 style="padding: 20px">Depoimentos</h3>
-        </div>
+    <section id="Depoimentos" class="conteiner-depoimentos">
+        
+            <h1 class="h2-depoimento">Depoimentos</h1>
 
         <div id="Dp" class="conteiner-carrosel-depoimentos">
 
-            <div class="depoimento1">
-                <div>
-                    <p class="lorem-depoimentos">
-                        <i class="fa-solid fa-quote-left"></i>
-                        Oi, Brenna! Passando pra dizer o quanto a psicoterapia me ajudou a encontrar maneiras melhores
-                        de alcançar meu bem estar. Suas técnicas realmente fazem a diferença, quando procuramos lidar
-                        com nossas emoções e sentimentos. Tenho usado no meu dia a dia e vejo que hoje consigo mais
-                        equilíbrio emocional. Parabéns pelo seu profissionalismo. <i
-                            class="fa-solid fa-quote-right"></i>
-                    </p>
-                </div>
-            </div>
-
-            <div class="depoimento2">
-                <div>
-                    <p class="lorem-depoimentos">
-                        <i class="fa-solid fa-quote-left"></i>
-                        No final do ano de 2020 tive uma forte crise de ansiedade e depressão. Foi quando uma amiga
-                        disse que eu precisava de uma ajuda profissional. Optei pelo atendimento online por ser mais
-                        adaptável com minha rotina. Vi um feed no meu Instagram da Psicóloga Brenna Medeiros e logo
-                        entrei em contato. Ela me acolheu sem julgamentos e me auxiliou muito em meu processo. Gratidão
-                        a essa profissão e a essa profissional. <br>
-                        Obrigada psi, por tudo! <i class="fa-solid fa-quote-right"></i>
-                    </p>
-                </div>
-            </div>
-
-            <div class="depoimento3">
-
-                <p class="lorem-depoimentos">
+            <div class="dp-1">
+                <p class="p-dp1">
                     <i class="fa-solid fa-quote-left"></i>
-                    Só tenho a lhe agradecer por ter me dado a oportunidade de participar do grupo terapêutico, não
-                    consigo expressar em palavras a importância dele para mim, só sei que veio exatamente no momento
-                    certo, onde estava com minhas emoções bastante abaladas, bagunçadas devido aos traumas que passei.
-                    <br>
-                    E hoje consigo enxergar melhor cada situação com uma perspectiva que não me assusta mais, consigo
-                    principalmente me valorizar como pessoa, coisa que antes nunca fiz e a cada aula subo um degrau e
-                    consigo amadurecer emocionalmente de uma forma extraordinária.
-                    Vou levar por toda minha vida tudo que aprendi com você e com certeza saberei viver de uma forma
-                    mais leve. Que Deus continue lhe usando dessa forma tão linda, gentil e sensível a história de todos
-                    que cruzam seu caminho. Muito obrigada. <i class="fa-solid fa-quote-right"></i>
+                        Olá Brenna. Quero agradecer a oportunidade de participar do grupo terapêutico, tem sido de
+                        grande valia para mim reconhecer mais minha personalidade, meus limites e me valorizar.
+                        Permaneça sendo essa profissional maravilhosa, cheia de conhecimento, sabedoria. que isso nunca
+                        lhe falte pelo contrário que cresça. De coração muito obrigada. 
+                    <i class="fa-solid fa-quote-right"></i>
                 </p>
-
             </div>
-            <div class="depoimento5">
-                <div>
-                    <p class="lorem-depoimentos">
-                        <i class="fa-solid fa-quote-left"> </i>
+            
+
+            <div class="dp-2">
+                <p class="p-dp2">
+                    <i class="fa-solid fa-quote-left"></i>
                         Eu confesso que de primeira achei que seria fácil aprender sobre maturidade, mas ser confrontado
                         a mudar é desconfortável. O grupo veio para me desafiar a mudar, veio para me refazer e voltar
                         os meus olhos pra mim novamente, pra me ensinar a me respeitar e a partir disso entender e
                         respeitar os outros também. <br>
-                        Amei a experiência e cresci muito sem dúvidas. <i class="fa-solid fa-quote-right"></i>
-                    </p>
-                </div>
-                <div class="dp-3">
-                    <p class="p-dp3">
-                        <i class="fa-solid fa-quote-left"></i>
-                        Olá Brenna. Quero agradecer a oportunidade de participar do grupo terapêutico, tem sido de
-                        grande valia para mim reconhecer mais minha personalidade, meus limites e me valorizar.
-                        Permaneça sendo essa profissional maravilhosa, cheia de conhecimento, sabedoria. que isso nunca
-                        lhe falte pelo contrário que cresça. De coração muito obrigada. <i
-                            class="fa-solid fa-quote-right"></i>
-                    </p>
-                </div>
+                        Amei a experiência e cresci muito sem dúvidas. 
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
             </div>
+
+            <div class="dp-3">
+
+                <p class="p-dp3">
+                    <i class="fa-solid fa-quote-left"></i>
+                        <!--Só tenho a lhe agradecer por ter me dado a oportunidade de participar do grupo terapêutico, não
+                        consigo expressar em palavras a importância dele para mim, só sei que veio exatamente no momento
+                        certo, onde estava com minhas emoções bastante abaladas, bagunçadas devido aos traumas que passei.
+                        <br> -->
+                        Hoje consigo enxergar melhor cada situação com uma perspectiva que não me assusta mais, consigo
+                        principalmente me valorizar como pessoa, coisa que antes nunca fiz e a cada aula subo um degrau e
+                        consigo amadurecer emocionalmente de uma forma extraordinária.
+                        Vou levar por toda minha vida tudo que aprendi com você e com certeza saberei viver de uma forma
+                        mais leve. Que Deus continue lhe usando dessa forma tão linda, gentil e sensível a história de todos
+                        que cruzam seu caminho. Muito obrigada. 
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
+
+            </div>
+            <div class="dp-4">
+                    <p class="p-dp4">
+                        <i class="fa-solid fa-quote-left"> </i>
+                            Oi, Brenna! Passando pra dizer o quanto a psicoterapia me ajudou a encontrar maneiras melhores
+                            de alcançar meu bem estar. Suas técnicas realmente fazem a diferença, quando procuramos lidar
+                            com nossas emoções e sentimentos. Tenho usado no meu dia a dia e vejo que hoje consigo mais
+                            equilíbrio emocional. Parabéns pelo seu profissionalismo. 
+                         <i class="fa-solid fa-quote-right"></i>
+                    </p>
+            </div>
+                <div class="dp-5">
+                    <p class="p-dp5">
+                        <i class="fa-solid fa-quote-left"></i>
+                            No final do ano de 2020 tive uma forte crise de ansiedade e depressão. Foi quando uma amiga
+                            disse que eu precisava de uma ajuda profissional. Optei pelo atendimento online por ser mais
+                            adaptável com minha rotina. Vi um feed no meu Instagram da Psicóloga Brenna Medeiros e logo
+                            entrei em contato. Ela me acolheu sem julgamentos e me auxiliou muito em meu processo. Gratidão
+                            a essa profissão e a essa profissional.Obrigada psi, por tudo! 
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                </div>
+            
 
         </div>
         <div class="conteiner-botao-depoimentos">
-            <a target="_blank" href="https://forms.gle/zk8CEaquWXt8bypLA"><input class="botao-depoimentos" type="button"
+            <a><input onclick="openmodaldp()" class="botao-depoimentos" type="button"
                     value="Deixe aqui seu depoimento ou dúvida"></a>
         </div>
     </section>
@@ -313,11 +308,11 @@
             <div class="pai-ebooks">
 
                 <a target="_blank" href="https://sun.eduzz.com/372862">
-                    <img class="ebook" src="/assets/ebook1.jpeg" alt="">
+                    <img class="ebook" src="/assets/ebook1.jpeg" alt="imagem com link do meu E-BOOK">
                 </a>
                 <a target="_blank"
                     href="https://hotmart.com/pt-br/marketplace/produtos/voce-nao-precisa-dizer-sim-o-tempo-todo/H62393395W">
-                    <img class="ebook" src="/assets/ebook2.jpeg" alt="">
+                    <img class="ebook" src="/assets/ebook2.jpeg" alt="imagem com link do meu segundo e-book">
                 </a>
 
             </div>
@@ -331,7 +326,7 @@
         <div class="conteiner-guia">
 
             <a target="_blank" href="https://drive.google.com/file/d/1Q_3vkPF13GyfDVqhfqr2auO3DIImHBqZ/view">
-                <img class="guia" src="/assets/guia.jpeg" alt="">
+                <img class="guia" src="/assets/guia.jpeg" alt="imagem com link do meu guia, lockdown">
             </a>
 
             <p class="p-guia">Baixe <strong>GRATUITAMENTE </strong>clicando na imagem acima, <br>
@@ -347,62 +342,41 @@
     <footer id="Contato">
 
         <div class="conteiner-footer">
-
-            <div class="conteiner-texto-footer">
-
-                <h2 class="h2-footer">Brenna Medeiros</h2>
-                <p class="crp">CRP - 11/15409</p>
-
+           
+            <div class="pai-textos-footer">
+                <p class="nome-brenna-footer">Brenna Inácio de Melo Medeiros</p>
+                <p class="crp-footer">CRP 11/ 15409</p>
+                <p class="email-footer">brenna.medeiros22@gmail.com</p>
             </div>
-            <div class="conteiner-redes">
-
-                <p class="texto-redes">Siga-me nas redes socias</p>
-
-                <div class="redes">
-
-                    <a target="_blank" href="https://www.instagram.com/brennamedeirospsi/">
-                        <img class="logo-insta" src="/assets/logo-insta-colorida.png" alt="">
-                    </a>
-
-                    <a target="_blank"
-                        href="https://open.spotify.com/show/0nMtFuN88oYtbGBBghLbK2?go=1&sp_cid=e9d0e513f5659a664e50c19dca518ef4&utm_source=embed_player_p&utm_medium=desktop&nd=1">
-                        <img class="logo-spotify" src="/assets/logo-spotify.png" alt="">
-                    </a>
-
-                </div>
-
-            </div>
-
         </div>
-
+     
     </footer>
  <div id="conteiner-modal-depoimentos" class="conteiner-modal-depoimentos">
 
             <div class="modal-depoimentos">
                 <div class="conteiner-titulo-modal">
-                    <h1 class="titulo-modal-dp">Seu Depoimento</h1>
-                    <p class="subtitulo-modal-dp">Complete suas informações</p>
+                    <h2 class="titulo-modal-dp">Deixe aqui seu depoimento <br> ou dúvida</h2>
                     <i onclick="closemodal()" id="closemodal" class="fa-solid fa-xmark"></i>
                 </div>
 
                 <fieldset class="group">
 
-                    <form class="pai-ipt" action="https://formsubmit.co/brenna.medeiros22@gmail.com" method="POST">
+                    <form class="pai-ipt" action="https://formsubmit.co/lsteferson83@gmail.com" method="POST">
 
                         <div class="conteiner-nome-idade">
                             <div class="campo">
-                                <input type="text" name="Nome" id="Nome" placeholder="Seu nome" required pattern="^[a-zA-Z0-9]+$" >
+                                <input type="text" name="Nome" id="Nome" placeholder="Nome" required pattern="^[a-zA-Z0-9]+$" >
                             </div>
 
                             <div class="campo">
-                                <input type="number" placeholder="Sua idade" name="Idade" id="Idade" required min="0" oninput="validity.valid||(value='');"/>
+                                <input type="number" placeholder="Idade" name="Idade" id="Idade" required min="0" oninput="validity.valid||(value='');"/>
                             </div>
                         </div>
 
                         <div class="pai-estado-cidade">
                             <div class="campo">
                                 <select required name="estado" id="estado" aria-placeholder="">
-                                    <option selected disabled value="">Seu Estado </option>
+                                    <option selected disabled value="">Estado </option>
                                     <option value="AC">Acre</option>
                                     <option value="AL">Alagoas</option>
                                     <option value="AP">Amapá</option>
@@ -441,15 +415,14 @@
 
                         <div class="pai-email-telefone">
                             <div class="campo">
-                                <input type="email" name="email" id="email" placeholder="Seu melhor e-mail">
+                                <input type="email" name="email" id="email" placeholder="Melhor e-mail">
                             </div>
                             <div class="campo">
-                                <input required type="tel" name="telefone" id="telefone" placeholder="Seu telefone">
+                                <input required type="tel" name="telefone" id="telefone" placeholder="Telefone">
                             </div>
                         </div>
                         <div class="campo-dp">
-                            <label for="depoimento"><p class="deixe-dp"><strong>Deixe aqui seu depoimento:</strong></p> </label>
-                            <textarea required name="depoimento" id="depoimento" cols="50" rows="5"></textarea>
+                            <textarea required name="depoimento" class="area-texto-dp" id="depoimento" cols="50" rows="5"></textarea>
 
                             <button class="button-enviar-dp" type="submit">
                                 <div class="svg-wrapper-1">
@@ -460,18 +433,55 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span>Send</span>
+                                <span>Enviar</span>
                           </button>
                         </div>
                 
                         
                     </form>
                 </fieldset>   
-                    
-                
             </div>
         </div>
 
+        <div id="conteiner-modal-agende" class="conteiner-modal-agende">
+            
+            <div class="modal-agende">
+                
+                    <i onclick="closeModalAgende()" id="closeModalAgende" class="fa-solid fa-xmark"></i>
+               <div class="pai-titulos-modal-agende"> 
+                    <h2 class="titulo-modal-agende">Deixe abaixo seu nome e telefone </h2> 
+                    <p class="subtitulo-modal-agende"> em breve entraremos em contato para agendamento</p>
+                </div>
+                    <fieldset>
+                        <form action="https://formsubmit.co/brenna.medeiros22@gmail.com" method="POST">
+                            <div class="pai-ipt-agende"  >
+                                <div class="input-group">
+                                    <input required="" type="text" name="text" autocomplete="off" class="input">
+                                    <label class="user-label">Nome</label>
+                                </div>
+                                <div class="input-group">
+                                    <input required="" type="tel" name="text" autocomplete="off" class="input">
+                                    <label class="user-label">Telefone</label>
+                              </div>
+                            </div>
+                            <input type="hidden" name="_captcha" value="false">
+                        
+                    </fieldset>
+                    <button class="button-agendar" type="submit">
+                        <div class="svg-wrapper-1">
+                            <div class="svg-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <span>Enviar</span>
+                  </button>
+                </form>
+                <p class="p-modal-agende">Tempo médio de resposta: 30min</p>
+            </div>
+        </div>
 </body>
 
 <script src="javaScript.js"></script>
